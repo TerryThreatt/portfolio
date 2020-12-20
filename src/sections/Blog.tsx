@@ -6,12 +6,12 @@ import Triangle from '../components/Triangle';
 import { useMediumQuery } from '../queries/useMediumQuery';
 import { Post } from '../components/Post';
 
-const Writing = () => {
+const Blog = () => {
   const { posts } = useMediumQuery();
 
   return (
     <Section.Container id="writing" Background={Background}>
-      <Section.Header name="Writing" icon="✍️" label="writing" />
+      <Section.Header name="Blog" icon="✍️" label="writing" />
       <CardContainer minWidth="300px">
         <Fade direction="down" triggerOnce cascade damping={0.5}>
           {posts.map((p) => (
@@ -25,7 +25,7 @@ const Writing = () => {
 
 const Background = () => (
   <>
-    <Triangle
+    {/* <Triangle
       color="muted"
       height={['15vh', '10vh']}
       width={['100vw', '100vw']}
@@ -44,8 +44,8 @@ const Background = () => (
       height={['40vh', '15vh']}
       width={['100vw', '100vw']}
       position="bottom-right"
-    />
+    /> */}
   </>
 );
 
-export default Writing;
+export default Blog;

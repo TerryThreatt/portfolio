@@ -60,7 +60,7 @@ const LandingPage = () => {
 
 const Background = () => (
   <>
-    <Triangle
+    {/* <Triangle
       color="muted"
       height={['35vh', '80vh']}
       width={['95vw', '60vw']}
@@ -84,7 +84,7 @@ const Background = () => (
       height={['20vh', '20vh']}
       width={['100vw', '100vw']}
       position="bottom-right"
-    />
+    /> */}
   </>
 );
 
