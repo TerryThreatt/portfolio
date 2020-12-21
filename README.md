@@ -1,4 +1,4 @@
 # Portfolio 
 
-[Live Site](https://terrythreatt.com)
+[View Live Portfolio](https://terrythreatt.com)
 
