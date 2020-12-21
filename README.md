@@ -1,4 +1,4 @@
-# Person Portfolio 
+# Portfolio 
 
 [Live Site](https://terrythreatt.com)
 
