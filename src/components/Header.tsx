@@ -23,7 +23,7 @@ const Header = () => {
           {sections
             .filter(({ id }) => id !== 'home')
             .map(({ id, onClick, selected }) => (
-              <Box key={id} ml={[2, 3]} color="background" fontSize={[2, 3]}>
+              <Box key={id} ml={[2, 3]} color="text" fontSize={[2, 3]}>
                 <Link onClick={onClick} selected={selected} tabIndex={0}>
                   {capitalize(id)}
                 </Link>
@@ -59,11 +59,9 @@ const StyledHeadroom = styled(Headroom)`
   * {
     transition: background-color 0.1s ease;
   }
-
   .headroom--pinned {
     background-color: ${({ theme }) => theme.colors.primary};
   }
-
   position: absolute;
   width: 100%;
 `;

@@ -12,13 +12,13 @@ const theme: Theme = {
   ...BASE_THEME,
   colors: {
     background: '#FFFFFF',
-    muted: '#f0e6f6',
-    gray: '#ddd',
-    text: '#333333',
+    muted: '#FFFFFF',
+    gray: '#DDDFDF',
+    text: '#343434',
 
-    primary: '#7c37ad',
-    secondary: '#ff4081',
-    highlight: '#ff79b0',
+    primary: '#1B98E0',
+    secondary: '#FFFFFF',
+    highlight: '#1B98E0',
   },
   queries: {
     xs: '@media screen and (max-width: 40em)',
@@ -35,7 +35,7 @@ const theme: Theme = {
     },
   },
   fonts: {
-    body: 'Cabin, Open Sans, sans-serif',
+    body: 'roboto',
     heading: 'inherit',
     monospace: 'monospace',
   },

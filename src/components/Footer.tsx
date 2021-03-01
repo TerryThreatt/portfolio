@@ -23,8 +23,7 @@ const Footer = () => {
             <Link href={NETLIFY_URL}>Netlify</Link>{' '}
             <span role="img" aria-label="heart">
               ❤️
-            </span>
-          </TextWrapper>
+            </span>          </TextWrapper>
         </Fade>
         <Flex>
           <Fade direction="right" triggerOnce cascade damping={0.5}>
